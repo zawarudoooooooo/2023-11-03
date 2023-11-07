@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+
+}
+
+.imgArea{
+    background-image: url(./dessertpicture/8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgArea2{
+    background-image: url("https://img.myvideo.net.tw/images/POR010/0000/2038/202007291357297165_2016.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

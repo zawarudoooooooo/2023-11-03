@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topPage{
+    width: 90vw;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 90px;
+    
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: darkcyan;
+        margin-left: 50px;
+    }
+
+    .list{
+        width: 50px;
+        height: 50px;
+        background-image: url("./dessertpicture/Group\ 10.png");
+        background-repeat: no-repeat;
+        
+    }
+}
+
+.firstPage{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+
+    .lefttext{
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        margin-left: 50px;
+
+        p{
+            font-size: 16pt;
+        }
+    }
+
+    .rightpicture{
+        background-image: url("./dessertpicture/1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.onsalePage{
+    width: 90vw;
+    height: 50vh;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 90px;
+
+    span{
+        font-size: 40pt;
+    }
+
+    .picturearea{
+        width: 90vw;
+        height: 45vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .pic1{
+            background-image: url("./dessertpicture/2.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            p{
+                width: 80px;
+                height: 30px;
+                font-size: 16pt;
+                color: aliceblue;
+                background-color: darkcyan;
+                position: absolute;
+                top: 240px;
+                left: 75px;
+            }
+        }
+        .pic2{
+            background-image: url("./dessertpicture/3.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            p{
+                width: 80px;
+                height: 30px;
+                font-size: 16pt;
+                color: aliceblue;
+                background-color: darkcyan;
+                position: absolute;
+                top: 240px;
+                left: 75px;
+            }
+        }
+        .pic3{
+            background-image: url("./dessertpicture/4.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            p{
+                width: 80px;
+                height: 30px;
+                font-size: 16pt;
+                color: aliceblue;
+                background-color: darkcyan;
+                position: absolute;
+                top: 240px;
+                left: 75px;
+            }
+        
+        }
+    }
+}
+
+.newsPage{
+    width: 90vw;
+    height: 90vh;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 90px;
+
+    span{
+        font-size: 40pt;
+    }
+
+    .cardarea{
+        width: 90vw;
+        height: 65vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .card1{
+            width: 330px;
+            height: 400px;
+            background-color: aliceblue;
+
+            h3{
+                margin: 0;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            p{
+                width: 250px;
+                margin-left: 40px;
+            }
+            .btn{
+                background-color: darkcyan;
+                color: aliceblue;
+                text-decoration: none;
+                border-radius: 3px;
+                font-size: 14pt;
+            }
+        }
+
+        .card2{
+            width: 330px;
+            height: 400px;
+            background-color: aliceblue;
+
+            h3{
+                margin: 0;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            p{
+                width: 250px;
+                margin-left: 40px;
+            }
+            .btn{
+                background-color: darkcyan;
+                color: aliceblue;
+                text-decoration: none;
+                border-radius: 3px;
+                font-size: 14pt;
+            }
+        }
+
+
+        .card3{
+            width: 330px;
+            height: 400px;
+            background-color: aliceblue;
+
+            h3{
+                margin: 0;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            p{
+                width: 250px;
+                margin-left: 40px;
+            }
+            .btn{
+                background-color: darkcyan;
+                color: aliceblue;
+                text-decoration: none;
+                border-radius: 3px;
+                font-size: 14pt;
+            }
+        }
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        font-size: 26pt;
+        background-color: darkcyan;
+        color: aliceblue;
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: 3px 3px 3px darkgray;
+    }
+}
+
+.arrivalPage{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+
+    
+    &:after{
+        content: "";
+        width: 500px;
+        height: 400px;
+        background-color: darkcyan;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        bottom: 5px;
+    }
+
+    .left{
+        width: 1500px;
+        height: 300px;
+        background-image: url(./dessertpicture/8.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 200px;
+    }
+
+    .right{
+        .text{
+            width: 280px;
+            height: 300px;
+            text-align: center;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+    }
+    
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkcyan;
+    margin-top: 100px;
+}
