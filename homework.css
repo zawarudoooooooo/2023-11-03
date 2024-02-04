@@ -78,7 +78,7 @@ body {
   color: aliceblue;
   background-color: darkcyan;
   position: absolute;
-  top: 240px;
+  top: 255px;
   left: 75px;
 }
 .onsalePage .picturearea .pic2 {
@@ -94,7 +94,7 @@ body {
   color: aliceblue;
   background-color: darkcyan;
   position: absolute;
-  top: 240px;
+  top: 255px;
   left: 75px;
 }
 .onsalePage .picturearea .pic3 {
@@ -110,7 +110,7 @@ body {
   color: aliceblue;
   background-color: darkcyan;
   position: absolute;
-  top: 240px;
+  top: 255px;
   left: 75px;
 }
 
@@ -126,7 +126,7 @@ body {
 }
 .newsPage .cardarea {
   width: 90vw;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
@@ -196,8 +196,8 @@ body {
 }
 .newsPage button {
   width: 150px;
-  height: 40px;
-  font-size: 26pt;
+  height: 50px;
+  font-size: 24pt;
   background-color: darkcyan;
   color: aliceblue;
   border-radius: 5px;
@@ -232,7 +232,7 @@ body {
 }
 .arrivalPage .right .text {
   width: 280px;
-  height: 300px;
+  height: 330px;
   text-align: center;
   background-color: aliceblue;
   padding: 20px;
